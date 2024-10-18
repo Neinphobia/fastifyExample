@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Theme Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+    <div class="container mx-auto p-6">
+        <header class="mb-8">
+            <h1 class="text-4xl font-bold">Karanlık Tema Örneği</h1>
+            <p class="mt-2 text-gray-400">Bu, Tailwind CSS kullanarak oluşturulmuş basit bir karanlık tema örneğidir.</p>
+        </header>
+
+        <main>
+            <section class="bg-gray-800 rounded-lg p-6 mb-6 shadow-lg">
+                <h2 class="text-2xl font-semibold">Rotalar</h2>
+                <ul class="list-disc list-inside mt-4">
+                    <li class="mt-2">
+                        <a href="/" target="_blank" class="text-blue-400 hover:underline">Ana Sayfa</a>
+                    </li>
+                    <li class="mt-2">
+                        <a href="/currency" target="_blank" class="text-blue-400 hover:underline">Döviz Bilgileri</a>
+                    </li>
+                    <li class="mt-2">
+                        <a href="/canli" target="_blank" class="text-blue-400 hover:underline">Canlı Yayın Durumu</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="bg-gray-800 rounded-lg p-6 mb-6 shadow-lg">
+                <h2 class="text-2xl font-semibold">İletişim</h2>
+                <form class="mt-4">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm">Adınız:</label>
+                        <input type="text" id="name" class="mt-1 p-2 w-full bg-gray-700 text-white border border-gray-600 rounded" placeholder="Adınızı girin">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm">E-posta:</label>
+                        <input type="email" id="email" class="mt-1 p-2 w-full bg-gray-700 text-white border border-gray-600 rounded" placeholder="E-posta adresinizi girin">
+                    </div>
+                    <button type="submit" class="mt-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                        Gönder
+                    </button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="mt-8 text-center">
+            <p class="text-gray-400">© 2024 Karanlık Tema Örneği. Tüm hakları saklıdır.</p>
+        </footer>
+    </div>
+</body>
+</html>
